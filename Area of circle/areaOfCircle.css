@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(124, 220, 127);
+    letter-spacing: 4px;
+    font-size: x-large;
+
+}
+
+
+.container {
+    background-color: rgb(85, 219, 90);
+    color: rgb(255, 255, 255);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #20c63c;
+}
+
+.container .head {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    line-height: 90px;
+}
+
+.container .head button {
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: #20c63c;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+    margin: 20px;
+}
+
+.container .head .btn #reset {
+    background-color: rgb(219, 60, 60);
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+input {
+    width: 70%;
+    height: 40px;
+    border-radius: px;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #fff;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    border-bottom: 3px solid rgb(13, 112, 204);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255, 0.6);
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
